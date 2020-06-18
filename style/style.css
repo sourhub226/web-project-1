@@ -17,6 +17,7 @@ Colors:
     padding: 0;
 }
 img{
+    resize:both;
     width: 100%;
 }
 
@@ -123,7 +124,7 @@ header h1 span{
 
 @media (max-width:780px){
     .food{
-        display: block;
+        display:inherit;
     }
 }
 
